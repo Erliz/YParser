@@ -1,0 +1,8 @@
+AddDefaultCharset utf-8
+
+#AuthName "Protected area, need authorization"
+#AuthType Basic
+#AuthUserFile /huyachechnaya.ru/.authfile
+#require valid-user
+
+DirectoryIndex index.php index.html
